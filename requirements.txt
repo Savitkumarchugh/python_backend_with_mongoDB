@@ -1,3 +1,4 @@
 pymongo[srv]
 certifi
 python-dotenv
+flask 

@@ -2,3 +2,4 @@ pymongo[srv]
 certifi
 python-dotenv
 flask 
+flask-cors

@@ -1,7 +1,10 @@
 from flask import Flask, request, jsonify
 from connection import GymDB
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 db = GymDB()
 
 
